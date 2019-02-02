@@ -8,7 +8,7 @@
             <div class="row align-items-center" style="height: 10vh">
               <div class="col justify-content-center">
                 <div class="container text-center">
-                  <h4 class="text-light"><i class="fa fa-lock"></i> Sign In</h4>
+                  <h4 class="text-light"><i class="fa fa-lock"></i> Sign Up</h4>
                 </div>
               </div>
             </div>
@@ -20,17 +20,20 @@
                 <input type="email" class="form-control" id="emailInput" placeholder="example@example.com">
               </div>
               <div class="form-group">
+                <label for="bannerInput"><i class="fa fa-user"></i> Banner ID</label>
+                <input type="text" class="form-control" id="bannerInput" placeholder="123456789">
+              </div>
+              <div class="form-group">
                 <label for="passwordInput"><i class="fa fa-eye"></i> Password</label>
                 <input type="password" class="form-control" id="passwordInput" placeholder="password">
               </div>
               <div class="form-group text-center">
-                  <button type="submit" class="btn btn-success"><i class="fa fa-sign-in"></i> Sign in</button>
+                <button type="submit" class="btn btn-success"><i class="fa fa-sign-in"></i> Sign in</button>
               </div>
             </form>
             <hr>
             <div class="container text-center">
-              <p>Don't have an account? <a routerLink="/console-signup">Sign Up</a> </p>
-              <p>Forgot <a href="">Password?</a></p>
+              <p>Already have an account?<a routerLink="/console-login"> Sign In</a> </p>
             </div>
           </div>
         </div>

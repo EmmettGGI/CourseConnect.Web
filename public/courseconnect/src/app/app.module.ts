@@ -8,6 +8,8 @@ import { FooterComponent } from "./footer/footer.component";
 import { AppComponent } from "./app/app.component";
 import { AboutComponent } from './about/about.component';
 import { ConsoleLoginComponent } from './console-login/console-login.component';
+import { ConsoleSignupComponent } from './console-signup/console-signup.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +17,8 @@ import { ConsoleLoginComponent } from './console-login/console-login.component';
     HomeComponent,
     FooterComponent,
     AboutComponent,
-    ConsoleLoginComponent
+    ConsoleLoginComponent,
+    ConsoleSignupComponent
   ],
   imports: [
     BrowserModule,
