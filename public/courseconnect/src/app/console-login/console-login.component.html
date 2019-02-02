@@ -14,23 +14,24 @@
             </div>
           </div>
           <div class="container-fluid bg-light" style="padding-top: 20px; padding-bottom: 20px">
-            <form>
+            <form name="userSignIn">
               <div class="form-group">
                 <label for="emailInput"><i class="fa fa-user"></i> Email</label>
-                <input type="email" class="form-control" id="emailInput" placeholder="example@example.com">
+                <input type="email" class="form-control" id="emailInput" name="email" [(ngModel)]="email">
               </div>
               <div class="form-group">
                 <label for="passwordInput"><i class="fa fa-eye"></i> Password</label>
-                <input type="password" class="form-control" id="passwordInput" placeholder="password">
+                <input type="password" class="form-control" id="passwordInput" name="password" [(ngModel)]="password">
               </div>
               <div class="form-group text-center">
-                  <button type="submit" class="btn btn-success"><i class="fa fa-sign-in"></i> Sign In</button>
+                <button type="submit" class="btn btn-success" (click)="signIn()"><i class="fa fa-sign-in"></i> Sign Up</button>
+                <p class="text-danger">{{error}}</p>
               </div>
             </form>
             <hr>
             <div class="container text-center">
               <p>Don't have an account? <a routerLink="/console-signup">Sign Up</a> </p>
-              <p>Forgot <a href="">Password?</a></p>
+              <p>Forgot <a routerLink="/console-forgot">Password?</a></p>
             </div>
           </div>
         </div>

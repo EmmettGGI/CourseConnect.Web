@@ -23,20 +23,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="7" />
+          <entry key="html" value="9" />
           <entry key="js" value="1" />
           <entry key="json" value="2" />
-          <entry key="scss" value="4" />
-          <entry key="ts" value="5" />
+          <entry key="scss" value="5" />
+          <entry key="ts" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="7" />
+          <entry key="HTML" value="9" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="1" />
-          <entry key="SCSS" value="4" />
-          <entry key="TypeScript" value="5" />
+          <entry key="SCSS" value="5" />
+          <entry key="TypeScript" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -47,36 +47,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1993" />
+          <entry key="html" value="2048" />
           <entry key="json" value="59" />
           <entry key="scss" value="85" />
-          <entry key="ts" value="1317" />
+          <entry key="ts" value="2045" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1993" />
+          <entry key="HTML" value="2048" />
           <entry key="JSON" value="59" />
           <entry key="SCSS" value="85" />
-          <entry key="TypeScript" value="1317" />
+          <entry key="TypeScript" value="2045" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/app-routing.module.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,45 +78,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/home/home.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/home/home.component.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-login/console-login.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-signup/console-signup.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="40" column="47" lean-forward="true" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+            <state relative-caret-position="153">
+              <caret line="18" column="99" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="99" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -136,15 +89,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-verify/console-verify.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+            <state relative-caret-position="272">
+              <caret line="16" column="35" lean-forward="true" selection-end-line="35" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-verify/console-verify.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-signup/console-signup.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="44" selection-start-line="1" selection-end-line="44" />
+            <state relative-caret-position="417">
+              <caret line="33" column="19" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="33" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -165,19 +130,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/courseconnect/package.json">
+        <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-login/console-login.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="272">
+              <caret line="26" column="13" selection-end-line="43" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/header/header.component.html">
+        <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-forgot/console-forgot.component.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-forgot/console-forgot.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="213">
+              <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-forgot/console-forgot.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-login/console-login.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="99" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="99" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,13 +203,17 @@
         <option value="$PROJECT_DIR$/public/courseconnect/src/app/footer/footer.component.html" />
         <option value="$PROJECT_DIR$/public/courseconnect/src/app/header/header.component.html" />
         <option value="$PROJECT_DIR$/public/courseconnect/src/environments/environment.ts" />
-        <option value="$PROJECT_DIR$/public/courseconnect/src/app/console-login/console-login.component.html" />
         <option value="$PROJECT_DIR$/public/courseconnect/package.json" />
         <option value="$PROJECT_DIR$/public/courseconnect/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/public/courseconnect/src/app/console-signup/console-signup.component.html" />
         <option value="$PROJECT_DIR$/public/courseconnect/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/public/courseconnect/src/app/console-signup/console-signup.component.ts" />
         <option value="$PROJECT_DIR$/public/courseconnect/src/app/console-verify/console-verify.component.html" />
+        <option value="$PROJECT_DIR$/public/courseconnect/src/app/console-verify/console-verify.component.ts" />
+        <option value="$PROJECT_DIR$/public/courseconnect/src/app/console-login/console-login.component.ts" />
+        <option value="$PROJECT_DIR$/public/courseconnect/src/app/console-login/console-login.component.html" />
+        <option value="$PROJECT_DIR$/public/courseconnect/src/app/console-forgot/console-forgot.component.html" />
+        <option value="$PROJECT_DIR$/public/courseconnect/src/app/console-forgot/console-forgot.component.ts" />
       </list>
     </option>
   </component>
@@ -1450,7 +1458,7 @@
               <item name="courseconnect" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="console-signup" type="462c0819:PsiDirectoryNode" />
+              <item name="console-forgot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CourseConnect.Web" type="b2602c69:ProjectViewProjectNode" />
@@ -1459,7 +1467,7 @@
               <item name="courseconnect" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="console-verify" type="462c0819:PsiDirectoryNode" />
+              <item name="console-login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CourseConnect.Web" type="b2602c69:ProjectViewProjectNode" />
@@ -1520,12 +1528,12 @@
       <updated>1549128382173</updated>
       <workItem from="1549128383314" duration="938000" />
       <workItem from="1549129635103" duration="40000" />
-      <workItem from="1549129706099" duration="11328000" />
+      <workItem from="1549129706099" duration="12638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12306000" />
+    <option name="totallyTimeSpent" value="13616000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1612,18 +1620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-login/console-login.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/home/home.component.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1675,10 +1671,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-verify/console-verify.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-signup/console-signup.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="44" selection-start-line="1" selection-end-line="44" />
+        <state relative-caret-position="417">
+          <caret line="33" column="19" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="33" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -1689,8 +1695,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-signup/console-signup.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="40" column="47" lean-forward="true" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+        <state relative-caret-position="153">
+          <caret line="18" column="99" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="99" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
@@ -1699,12 +1705,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-verify/console-verify.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+        <state relative-caret-position="272">
+          <caret line="16" column="35" lean-forward="true" selection-end-line="35" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-login/console-login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="13" selection-end-line="43" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-forgot/console-forgot.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-forgot/console-forgot.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-login/console-login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="99" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="99" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/courseconnect/src/app/console-forgot/console-forgot.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
