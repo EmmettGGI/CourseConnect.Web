@@ -1,5 +1,5 @@
 export interface Class {
-  Name: string
-  Beacon: string
+  name: string
+  beacon: string
   id?: string
 }

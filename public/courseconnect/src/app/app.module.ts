@@ -21,6 +21,8 @@ import { ConsoleSidebarComponent } from './console-sidebar/console-sidebar.compo
 import { ConsoleClassesComponent } from './console-classes/console-classes.component';
 import { ConsoleAlertsComponent } from './console-alerts/console-alerts.component';
 import { ConsoleNewclassComponent } from './console-newclass/console-newclass.component';
+import { ConsoleClassComponent } from './console-class/console-class.component';
+import { ConsoleNewstudentComponent } from './console-newstudent/console-newstudent.component';
 
 
 @NgModule({
@@ -38,7 +40,9 @@ import { ConsoleNewclassComponent } from './console-newclass/console-newclass.co
     ConsoleSidebarComponent,
     ConsoleClassesComponent,
     ConsoleAlertsComponent,
-    ConsoleNewclassComponent
+    ConsoleNewclassComponent,
+    ConsoleClassComponent,
+    ConsoleNewstudentComponent
   ],
   imports: [
     BrowserModule,

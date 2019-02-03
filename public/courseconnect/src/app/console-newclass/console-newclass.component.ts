@@ -24,7 +24,7 @@ export class ConsoleNewclassComponent implements OnInit {
   createClass() {
 
     if (this.beacon.length > 0 && this.className.length > 0) {
-      this.db.collection("classes").add({"Name": this.className, "Beacon": this.beacon})
+      this.db.collection("classes").doc(this.beacon).set({"name": this.className, "beacon": this.beacon})
         .then(value => {
           this.router.navigate(["/console-classes"])
         })

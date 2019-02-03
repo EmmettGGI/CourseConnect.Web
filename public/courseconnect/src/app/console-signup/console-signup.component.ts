@@ -31,7 +31,7 @@ export class ConsoleSignupComponent implements OnInit {
         .createUserWithEmailAndPassword(this.email, this.password)
         .then(value => {
           console.log('Success!', value);
-          this.db.collection("users").doc(this.afAuth.auth.currentUser.uid).set({"banner": this.banner});
+          this.db.collection("users").doc(this.afAuth.auth.currentUser.uid).set({"banner": this.banner, "email": this.email});
           this.afAuth.auth.currentUser.sendEmailVerification();
           this.router.navigate(['/console-verify'])
         }).catch(err => {

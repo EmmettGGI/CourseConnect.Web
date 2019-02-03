@@ -16,8 +16,8 @@
             </div>
             </div>
             <ul class="list-group">
-              <li class="list-group-item" *ngFor="let c of classes | async">
-                <p routerLink="/console-class/{{c.id}}">{{c.Name}}</p>
+              <li routerLink="/console-class/{{c.beacon}}" class="list-group-item" *ngFor="let c of classes | async">
+                <p>{{c.name}}</p>
               </li>
             </ul>
           </div>

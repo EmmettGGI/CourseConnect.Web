@@ -10,6 +10,8 @@ import {ConsoleForgotComponent} from "./console-forgot/console-forgot.component"
 import {ConsoleAlertsComponent} from "./console-alerts/console-alerts.component";
 import {ConsoleClassesComponent} from "./console-classes/console-classes.component";
 import {ConsoleNewclassComponent} from "./console-newclass/console-newclass.component";
+import {ConsoleClassComponent} from "./console-class/console-class.component";
+import {ConsoleNewstudentComponent} from "./console-newstudent/console-newstudent.component";
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -22,6 +24,8 @@ const routes: Routes = [
   {path: 'console-alerts', component: ConsoleAlertsComponent},
   {path: 'console-classes', component: ConsoleClassesComponent},
   {path: 'console-newclass', component: ConsoleNewclassComponent},
+  {path: 'console-class/:id', component: ConsoleClassComponent},
+  {path: 'console-class/:id/newstudent', component: ConsoleNewstudentComponent},
   {path: '**', component: HomeComponent}
 ];
 
