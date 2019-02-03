@@ -17,6 +17,10 @@ import {environment} from "../environments/environment";
 import { ConsoleHomeComponent } from './console-home/console-home.component';
 import { ConsoleVerifyComponent } from './console-verify/console-verify.component';
 import { ConsoleForgotComponent } from './console-forgot/console-forgot.component';
+import { ConsoleSidebarComponent } from './console-sidebar/console-sidebar.component';
+import { ConsoleClassesComponent } from './console-classes/console-classes.component';
+import { ConsoleAlertsComponent } from './console-alerts/console-alerts.component';
+import { ConsoleNewclassComponent } from './console-newclass/console-newclass.component';
 
 
 @NgModule({
@@ -30,7 +34,11 @@ import { ConsoleForgotComponent } from './console-forgot/console-forgot.componen
     ConsoleSignupComponent,
     ConsoleHomeComponent,
     ConsoleVerifyComponent,
-    ConsoleForgotComponent
+    ConsoleForgotComponent,
+    ConsoleSidebarComponent,
+    ConsoleClassesComponent,
+    ConsoleAlertsComponent,
+    ConsoleNewclassComponent
   ],
   imports: [
     BrowserModule,

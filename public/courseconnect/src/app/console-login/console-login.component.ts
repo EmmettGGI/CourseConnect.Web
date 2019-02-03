@@ -30,6 +30,9 @@ export class ConsoleLoginComponent implements OnInit {
             this.router.navigate(['/console-home']);
           }
         })
+        .catch(err =>{
+          this.error = err.message;
+        })
     }else{
       this.error = "Please fill out all fields"
     }

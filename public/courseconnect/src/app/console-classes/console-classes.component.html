@@ -1,0 +1,31 @@
+<div class="container-fluid" style="height: 100vh; margin-left: -15px; margin-right: -15px">
+  <div class="row" style="height: 100%;">
+    <div class="col-3" style="height: 100%">
+      <app-console-sidebar></app-console-sidebar>
+    </div>
+    <div class="col-9">
+      <div class="row" style="margin-top: 55px">
+        <div class="col">
+          <div class="container">
+            <div class="row">
+            <div class="form-group col-10">
+              <!--<input type="text" class="form-control" id="filterInput" name="filter" [(ngModel)]="filter" placeholder="Search">-->
+            </div>
+            <div class="form-group col-2">
+              <button routerLink="/console-newclass" type="submit" class="btn btn-success"><i class="fa fa-plus"></i> New Class</button>
+            </div>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item" *ngFor="let c of classes | async">
+                <p routerLink="/console-class/{{c.id}}">{{c.Name}}</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

@@ -7,6 +7,9 @@ import {ConsoleSignupComponent} from "./console-signup/console-signup.component"
 import {ConsoleHomeComponent} from "./console-home/console-home.component";
 import {ConsoleVerifyComponent} from "./console-verify/console-verify.component";
 import {ConsoleForgotComponent} from "./console-forgot/console-forgot.component";
+import {ConsoleAlertsComponent} from "./console-alerts/console-alerts.component";
+import {ConsoleClassesComponent} from "./console-classes/console-classes.component";
+import {ConsoleNewclassComponent} from "./console-newclass/console-newclass.component";
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -16,6 +19,9 @@ const routes: Routes = [
   {path: 'console-home', component: ConsoleHomeComponent},
   {path: 'console-verify', component: ConsoleVerifyComponent},
   {path: 'console-forgot', component: ConsoleForgotComponent},
+  {path: 'console-alerts', component: ConsoleAlertsComponent},
+  {path: 'console-classes', component: ConsoleClassesComponent},
+  {path: 'console-newclass', component: ConsoleNewclassComponent},
   {path: '**', component: HomeComponent}
 ];
 
