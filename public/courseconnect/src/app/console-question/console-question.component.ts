@@ -16,6 +16,8 @@ export class ConsoleQuestionComponent implements OnInit {
   id:string = "";
   qid:string = "";
 
+  aANS:number = 0;
+
   questionDocs: AngularFirestoreCollection<Question>;
   questions: Observable<Question[]>;
 

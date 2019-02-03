@@ -16,7 +16,6 @@ export class ConsoleNewquestionComponent implements OnInit {
   answerB:string = "";
   answerC:string = "";
   answerD:string = "";
-
   id:string = "";
 
   constructor(private route: ActivatedRoute, private afAuth: AngularFireAuth, private db: AngularFirestore, private router: Router) { }
@@ -31,7 +30,7 @@ export class ConsoleNewquestionComponent implements OnInit {
   createQuestion(){
     if (this.question.length > 0 && this.answerA.length > 0 && this.answerB.length > 0 && this.answerC.length > 0 && this.answerD.length > 0){
       var newID = new Date().toISOString();
-      this.db.collection('classes').doc(this.id).collection('questions').doc(newID).set({"id": newID,"question": this.question, "answerA": this.answerA, "answerB": this.answerB, "answerC": this.answerC, "answerD": this.answerD, "start": "none"})
+      this.db.collection('classes').doc(this.id).collection('questions').doc(newID).set({"id": newID,"question": this.question, "answerA": this.answerA, "answerB": this.answerB, "answerC": this.answerC, "answerD": this.answerD, "start": "none", "aANS": 0, "bANS": 0, "cANS": 0, "dANS": 0})
         .then(value => {
           this.router.navigate(['/console-class/'+this.id])
         })

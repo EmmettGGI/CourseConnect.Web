@@ -25,6 +25,7 @@ import { ConsoleClassComponent } from './console-class/console-class.component';
 import { ConsoleNewstudentComponent } from './console-newstudent/console-newstudent.component';
 import { ConsoleNewquestionComponent } from './console-newquestion/console-newquestion.component';
 import { ConsoleQuestionComponent } from './console-question/console-question.component';
+import { ProgressBarModule } from "angular-progress-bar";
 
 
 @NgModule({
@@ -54,7 +55,8 @@ import { ConsoleQuestionComponent } from './console-question/console-question.co
     FormsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    ProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

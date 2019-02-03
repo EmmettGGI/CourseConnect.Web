@@ -9,10 +9,26 @@
           <div *ngFor="let q of questions | async" class="container">
             <h4>{{q.question}}</h4>
             <h5>A. {{q.answerA}}</h5>
+            <h6>Votes: {{q.aANS}}</h6>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" [style.width]="(q.aANS / (q.aANS + q.bANS + q.cANS + q.dANS))*100 + '%'" ></div>
+            </div>
             <h5>B. {{q.answerB}}</h5>
+            <h6>Votes: {{q.bANS}}</h6>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" [style.width]="(q.bANS / (q.aANS + q.bANS + q.cANS + q.dANS))*100 + '%'" ></div>
+            </div>
             <h5>C. {{q.answerC}}</h5>
+            <h6>Votes: {{q.cANS}}</h6>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" [style.width]="(q.cANS / (q.aANS + q.bANS + q.cANS + q.dANS))*100 + '%'" ></div>
+            </div>
             <h5>D. {{q.answerD}}</h5>
-            <button *ngIf="q.start == 'none'" type="submit" class="btn btn-success" (click)="sendQuestion()"><i class="fa fa-send"></i> Send Question</button>
+            <h6>Votes: {{q.dANS}}</h6>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" [style.width]="(q.dANS / (q.aANS + q.bANS + q.cANS + q.dANS))*100 + '%'" ></div>
+            </div>
+            <button style="margin-top: 20px" *ngIf="q.start == 'none'" type="submit" class="btn btn-success" (click)="sendQuestion()"><i class="fa fa-send"></i> Send Question</button>
           </div>
         </div>
       </div>

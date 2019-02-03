@@ -35,7 +35,7 @@ export class ConsoleNewstudentComponent implements OnInit {
 
       this.users.subscribe(value => {
         if(value.length > 0){
-          this.db.collection("classes").doc(this.id).collection("students").add({'email': this.email, 'isAttending': false})
+          this.db.collection("classes").doc(this.id).collection("students").doc(this.email).set({'email': this.email, 'isAttending': false})
             .then(value1 => {
               this.router.navigate(["/console-class/" + this.id])
             })

@@ -20,7 +20,8 @@ export class ConsoleAlertsComponent implements OnInit {
 
   sendAlert(){
     if (this.alertMessage.length > 0){
-      this.db.collection('alerts').add({"message": this.alertMessage})
+      this.db.collection('alerts').add({"message": this.alertMessage});
+      this.alertMessage = "";
     }else{
       this.error = "Please fill out all fields"
     }
