@@ -44,7 +44,18 @@
         </div>
         <div class="col-3">
           <div class="container">
-            <button routerLink="/console-newclass" type="submit" class="btn btn-success"><i class="fa fa-plus"></i> New Question</button>
+            <button routerLink="/console-class/{{id}}/newquestion" type="submit" class="btn btn-success"><i class="fa fa-plus"></i> New Question</button>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 20px">
+        <div class="col">
+          <div class="container">
+            <ul class="list-group">
+              <li routerLink="/console-class/{{id}}/question/{{q.id}}" class="list-group-item" *ngFor="let q of questions | async">
+                <p>{{q.question}}</p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

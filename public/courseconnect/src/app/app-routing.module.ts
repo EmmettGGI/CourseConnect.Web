@@ -12,6 +12,8 @@ import {ConsoleClassesComponent} from "./console-classes/console-classes.compone
 import {ConsoleNewclassComponent} from "./console-newclass/console-newclass.component";
 import {ConsoleClassComponent} from "./console-class/console-class.component";
 import {ConsoleNewstudentComponent} from "./console-newstudent/console-newstudent.component";
+import {ConsoleNewquestionComponent} from "./console-newquestion/console-newquestion.component";
+import {ConsoleQuestionComponent} from "./console-question/console-question.component";
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -26,6 +28,8 @@ const routes: Routes = [
   {path: 'console-newclass', component: ConsoleNewclassComponent},
   {path: 'console-class/:id', component: ConsoleClassComponent},
   {path: 'console-class/:id/newstudent', component: ConsoleNewstudentComponent},
+  {path: 'console-class/:id/newquestion', component: ConsoleNewquestionComponent},
+  {path: 'console-class/:id/question/:qid', component: ConsoleQuestionComponent},
   {path: '**', component: HomeComponent}
 ];
 

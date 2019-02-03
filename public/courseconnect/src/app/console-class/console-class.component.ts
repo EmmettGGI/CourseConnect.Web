@@ -5,6 +5,7 @@ import {AngularFirestore, AngularFirestoreCollection, AngularFirestoreDocument} 
 import {Class} from "../class";
 import {Observable} from "rxjs";
 import {User} from "../user";
+import {Question} from "../question";
 
 @Component({
   selector: 'app-console-class',
@@ -21,6 +22,9 @@ export class ConsoleClassComponent implements OnInit {
   usersCollection: AngularFirestoreCollection<User>;
   users: Observable<User[]>;
 
+  questionsCollection: AngularFirestoreCollection<Question>;
+  questions: Observable<Question[]>;
+
   constructor(private route: ActivatedRoute, private afAuth: AngularFireAuth, private db: AngularFirestore, private router: Router) { }
 
   ngOnInit() {
@@ -33,8 +37,12 @@ export class ConsoleClassComponent implements OnInit {
       this.classCollection = this.db.collection('classes').doc(this.id);
       this.class = this.classCollection.valueChanges();
 
-      this.usersCollection = this.db.collection('classes').doc(this.id).collection('students')
-      this.users = this.usersCollection.valueChanges()
+      this.usersCollection = this.db.collection('classes').doc(this.id).collection('students');
+      this.users = this.usersCollection.valueChanges();
+
+      this.questionsCollection = this.db.collection('classes').doc(this.id).collection('questions')
+      this.questions = this.questionsCollection.valueChanges();
+
 
     });
   }

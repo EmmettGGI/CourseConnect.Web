@@ -1,0 +1,48 @@
+<div class="container-fluid" style="height: 100vh; margin-left: -15px; margin-right: -15px">
+  <div class="row" style="height: 100%;">
+    <div class="col-3" style="height: 100%">
+      <app-console-sidebar></app-console-sidebar>
+    </div>
+    <div class="col-9">
+      <div class="row" style="margin-top: 55px">
+        <div class="col text-center">
+          <h4 class="display-4">Create a Class</h4>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 55px">
+        <div class="col">
+          <div class="container">
+            <form name="newQuestion">
+              <div class="form-group">
+                <label for="questionInput"><i class="fa fa-question"></i> Question</label>
+                <input type="text" class="form-control" id="questionInput" name="question" [(ngModel)]="question" >
+              </div>
+              <hr>
+              <div class="form-group">
+                <label for="aInput">Answer A</label>
+                <input type="text" class="form-control" id="aInput" name="answerA" [(ngModel)]="answerA" >
+              </div>
+              <div class="form-group">
+                <label for="bInput">Answer B</label>
+                <input type="text" class="form-control" id="bInput" name="answerB" [(ngModel)]="answerB" >
+              </div>
+              <div class="form-group">
+                <label for="cInput">Answer C</label>
+                <input type="text" class="form-control" id="cInput" name="answerC" [(ngModel)]="answerC" >
+              </div>
+              <div class="form-group">
+                <label for="dInput">Answer D</label>
+                <input type="text" class="form-control" id="dInput" name="answerD" [(ngModel)]="answerD" >
+              </div>
+              <div class="form-group text-center">
+                <button type="submit" class="btn btn-success" (click)="createQuestion()"><i class="fa fa-plus"></i> Create Question</button>
+                <p class="text-danger">{{error}}</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

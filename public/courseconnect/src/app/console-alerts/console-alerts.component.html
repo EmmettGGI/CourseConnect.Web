@@ -5,13 +5,27 @@
     </div>
     <div class="col-9">
       <div class="row" style="margin-top: 55px">
+        <div class="col text-center">
+          <h4 class="display-4">Send an Alert</h4>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 55px">
         <div class="col">
-
+          <div class="container">
+            <form name="newAlert">
+              <div class="form-group">
+                <label for="alertInput"><i class="fa fa-exclamation"></i> Alert Message</label>
+                <input type="text" class="form-control" id="alertInput" name="alert" [(ngModel)]="alertMessage" >
+              </div>
+              <div class="form-group text-center">
+                <button type="submit" class="btn btn-success" (click)="sendAlert()"><i class="fa fa-send"></i> Send Alert</button>
+                <p class="text-danger">{{error}}</p>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-
 

@@ -23,6 +23,8 @@ import { ConsoleAlertsComponent } from './console-alerts/console-alerts.componen
 import { ConsoleNewclassComponent } from './console-newclass/console-newclass.component';
 import { ConsoleClassComponent } from './console-class/console-class.component';
 import { ConsoleNewstudentComponent } from './console-newstudent/console-newstudent.component';
+import { ConsoleNewquestionComponent } from './console-newquestion/console-newquestion.component';
+import { ConsoleQuestionComponent } from './console-question/console-question.component';
 
 
 @NgModule({
@@ -42,7 +44,9 @@ import { ConsoleNewstudentComponent } from './console-newstudent/console-newstud
     ConsoleAlertsComponent,
     ConsoleNewclassComponent,
     ConsoleClassComponent,
-    ConsoleNewstudentComponent
+    ConsoleNewstudentComponent,
+    ConsoleNewquestionComponent,
+    ConsoleQuestionComponent
   ],
   imports: [
     BrowserModule,

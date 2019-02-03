@@ -1,0 +1,22 @@
+<div class="container-fluid" style="height: 100vh; margin-left: -15px; margin-right: -15px">
+  <div class="row" style="height: 100%;">
+    <div class="col-3" style="height: 100%">
+      <app-console-sidebar></app-console-sidebar>
+    </div>
+    <div class="col-9">
+      <div class="row" style="margin-top: 55px">
+        <div class="col">
+          <div *ngFor="let q of questions | async" class="container">
+            <h4>{{q.question}}</h4>
+            <h5>A. {{q.answerA}}</h5>
+            <h5>B. {{q.answerB}}</h5>
+            <h5>C. {{q.answerC}}</h5>
+            <h5>D. {{q.answerD}}</h5>
+            <button *ngIf="q.start == 'none'" type="submit" class="btn btn-success" (click)="sendQuestion()"><i class="fa fa-send"></i> Send Question</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
